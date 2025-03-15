@@ -1,0 +1,9 @@
+{
+  "name": "Prueba API JMONTA3",
+  "data": {
+    "year": 2024,
+    "price": 30000.88,
+    "CPU model": "Intel Core i11",
+    "Hard disk size": "1 TB"
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APIs Privadas Suite">
+
+    <test name="API privadas con Lambda ">
+        <classes>
+            <class name="test.apiPrivadaWithLambda.ProductOfficeTCPWithLambda"> </class>
+            <class name="test.apiPrivadaWithLambda.CustomerManagementV3WithLambda"> </class>
+        </classes>
+    </test>
+    <test name="API privadas">
+        <classes>
+            <class name="test.apiPrivada.ClientsAccountManagement"> </class>
+            <class name="test.apiPrivada.CustomerManagementV3"> </class>
+            <class name="test.apiPrivada.CustomersAccountsBalance"> </class>
+            <class name="test.apiPrivada.ManejoDeClientes"> </class>
+        </classes>
+    </test>
+
+
+
+</suite>

@@ -1,0 +1,19 @@
+{
+  "ClientDt": "2024-06-28T13:37:00",
+  "AcctId": "006568281",
+  "BranchId": "907",
+  "ExtAcctBal": {
+    "ExtBalType": "Overdraft",
+    "CurAmt": {
+      "Amt": 100000
+    },
+    "EffDt": "2024-06-28",
+    "ExpDt": "2024-08-13"
+  },
+  "RefInfo": [
+    {
+      "RefType": "OverdraftRollover",
+      "RefId": "1"
+    }
+  ]
+}
