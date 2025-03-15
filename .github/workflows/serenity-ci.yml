@@ -30,7 +30,7 @@ jobs:
         run: mvn clean verify -Dserenity.reports.show=true
 
       - name: 📄 Guardar reportes de Serenity
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: serenity-reports
           path: target/site/serenity
